@@ -14,6 +14,7 @@ namespace Movil
     {
         public PantallaTecno()
         {
+
             InitializeComponent();
         }
     }
