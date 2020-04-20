@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Movil.Views.ViewsAcceso;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace Movil
         {
             InitializeComponent();
 
-            MainPage = new PantallaTecno();
+            MainPage = new NavigationPage(new StartPage());
         }
 
         protected override void OnStart()

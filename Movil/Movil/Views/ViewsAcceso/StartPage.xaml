@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Movil.Views.ViewsAcceso.StartPage"
+             BackgroundColor="White">
+    
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+            <Grid>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <StackLayout HorizontalOptions="Center" Grid.Column="0" Grid.Row="0" Margin="0,0,0,10">
+                    <Image Source="Sporthome.png" HeightRequest="200" WidthRequest="200"/>
+                </StackLayout>
+
+                <StackLayout HorizontalOptions="Center" Grid.Column="0" Grid.Row="1">
+                    <Label Text="Bienvenido a" TextColor="#333333" FontSize="28" FontAttributes="None" HorizontalOptions="Center"/>
+                    <Label Text="Tecno Home" TextColor="#333333" FontSize="27" FontAttributes="None" HorizontalOptions="Center"/>
+                </StackLayout>
+
+                <StackLayout Grid.Column="0" Grid.Row="2" HorizontalOptions="Center" Spacing="5">
+                    <Frame Padding="0,4,0,4" HasShadow="True">
+                        <Button Text="Register" HeightRequest="35" WidthRequest="185" TextColor="#FFFFFF" BackgroundColor="#177CA4" FontSize="10" Clicked="Register_Clicked"/>
+                    </Frame>
+                    <Frame Padding="0,4,0,4" HasShadow="True">
+                        <Button Text="Do you have account" HeightRequest="35" WidthRequest="185" TextColor="#FFFFFF" BackgroundColor="#177CA4" FontSize="10" Clicked="Login_Clicked"/>
+                    </Frame>
+                    <Frame>
+                        <Label Text="© 2020 Camilo Garcia, All Rights Reserved" TextColor="#333333" FontSize="10" HorizontalOptions="Center"/>
+                    </Frame>
+
+                </StackLayout>
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
