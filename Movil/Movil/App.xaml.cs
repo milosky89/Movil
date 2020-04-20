@@ -10,7 +10,7 @@ namespace Movil
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new PantallaTecno();
         }
 
         protected override void OnStart()
