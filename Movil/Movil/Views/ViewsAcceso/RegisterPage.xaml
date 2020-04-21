@@ -78,7 +78,7 @@
                     </Frame>
                     <Frame HasShadow="True" HeightRequest="45" Padding="0,1,0,0">
                         <Entry WidthRequest="134" HeightRequest="50"
-                               Placeholder="Grado" FontSize="15" HorizontalOptions="Center" VerticalOptions="Center"
+                               Placeholder="Ciudad" FontSize="15" HorizontalOptions="Center" VerticalOptions="Center"
                                Keyboard="Text" HorizontalTextAlignment="Start" MaxLength="20"/>
                     </Frame>
                 </StackLayout>
